@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "waypoints",
+"bbox": [ -122.1286127, 45.5761010, -121.8453832, 45.6699175 ],                                                                    
+"features": [
+{ "type": "Feature", "properties": { "ele": 21.6, "name": "Start - Wahkeena Picnic Area" }, "bbox": [ -122.1286127, 45.576101, -122.1286127, 45.576101 ], "geometry": { "type": "Point", "coordinates": [ -122.1286127, 45.576101 ] } },
+{ "type": "Feature", "properties": { "ele": 28.8, "name": "Finish - Marine Park" }, "bbox": [ -121.8940403, 45.6699175, -121.8940403, 45.6699175 ], "geometry": { "type": "Point", "coordinates": [ -121.8940403, 45.6699175 ] } },
+{ "type": "Feature", "properties": { "ele": 23.9, "name": "Wahclella Aid" }, "bbox": [ -121.9543614, 45.6312517, -121.9543614, 45.6312517 ], "geometry": { "type": "Point", "coordinates": [ -121.9543614, 45.6312517 ] } },
+{ "type": "Feature", "properties": { "ele": 77.5, "name": "Cascade Locks Aid" }, "bbox": [ -121.8945067, 45.6617777, -121.8945067, 45.6617777 ], "geometry": { "type": "Point", "coordinates": [ -121.8945067, 45.6617777 ] } },
+{ "type": "Feature", "properties": { "ele": 19.1, "name": "Ainsworth Aid" }, "bbox": [ -122.0594543, 45.592359, -122.0594543, 45.592359 ], "geometry": { "type": "Point", "coordinates": [ -122.0594543, 45.592359 ] } },
+{ "type": "Feature", "properties": { "ele": 292.2, "name": "Turnaround - Pacific Crest Falls" }, "bbox": [ -121.8453832, 45.6690281, -121.8453832, 45.6690281 ], "geometry": { "type": "Point", "coordinates": [ -121.8453832, 45.6690281 ] } }
+]
+}
