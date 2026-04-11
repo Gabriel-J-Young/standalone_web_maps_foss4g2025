@@ -6,11 +6,12 @@
     "protomaps": {
       "attribution": "<a href=\"https://github.com/protomaps/basemaps\">Protomaps</a> © <a href=\"https://openstreetmap.org\">OpenStreetMap</a>",
       "type": "vector",
-      "url": "pmtiles://sources/waiheke_island.pmtiles"
+      "url": "pmtiles://sources/gorge50.pmtiles",
+      "maxzoom": 15
     },
-    "te-ara-hura": {
+    "tracks": {
       "type": "geojson",
-      "data": "sources/te_ara_hura.geojson"
+      "data": "sources/tracks.geojson"
     }
   },
   "sprite": "https://protomaps.github.io/basemaps-assets/sprites/v4/light",
@@ -1052,6 +1053,16 @@
       }
     },
     {
+      "id": "tracks",
+      "type": "line",
+      "source": "tracks",
+      "paint": {
+        "line-color": "#e41f18",
+        "line-width": 3,
+        "line-dasharray": [2, 2]
+      }
+    },
+    {
       "id": "boundaries",
       "type": "line",
       "source": "protomaps",
@@ -1341,16 +1352,6 @@
           18,
           15
         ]
-      }
-    },
-    {
-      "id": "trail-line",
-      "type": "line",
-      "source": "te-ara-hura",
-      "paint": {
-        "line-color": "#e41f18",
-        "line-width": 3,
-        "line-dasharray": [2, 2]
       }
     },
     {
@@ -4369,5 +4370,5 @@
       }
     }
   ],
-  "id": "mtlkzf5"
+  "id": "bnaxzrz"
 }
